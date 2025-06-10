@@ -940,9 +940,13 @@ header{
 .feature-section ul{
     display: flex;
     justify-content: center;
-    gap:20px;
+    gap: 40px;
+    
 }
-
+.feature-section ul li{
+    display: flex;
+    background-color: pink;
+}
 
 /* Feature-Section Ended */
 #feature-about .feature-about-2, #feature-about .feature-about-3, #feature-about .feature-about-4
